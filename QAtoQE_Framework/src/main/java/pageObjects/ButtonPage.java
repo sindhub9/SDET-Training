@@ -1,15 +1,17 @@
 package pageObjects;
 
-import io.cucumber.java.bs.A;
+import base.baseMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ButtonPage
+public class ButtonPage extends baseMethods
 {
     WebDriver driver;
+    WebDriverWait wait;
 
     //Page Objects Creation
     @FindBy(xpath = "//span[text()='Buttons']")
@@ -28,17 +30,23 @@ public class ButtonPage
         PageFactory.initElements(driver,this);
     }
 
-    public void clickingButtons() throws InterruptedException {
-
-        Thread.sleep(3000);
+    public void clickButtonOption()
+    {
         this.btn_Buttons.click();
-
-        Thread.sleep(3000);
-
-        Actions actions = new Actions(driver);
-        actions.moveToElement(this.btn_doubleClick).doubleClick();
-
-        actions.moveToElement(this.btn_rightClick).contextClick();
     }
 
+    public void clickingButtons() throws InterruptedException {
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(this.btn_doubleClick).doubleClick().perform();
+
+        actions.moveToElement(this.btn_rightClick).contextClick().perform();
+    }
+
+    @Override
+    public boolean isAt()
+    {
+        wait = new WebDriverWait(this.driver,15);
+        return this.wait.until((d)->this.btn_doubleClick.isDisplayed());
+    }
 }

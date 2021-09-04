@@ -1,13 +1,16 @@
 package pageObjects;
 
+import base.baseMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TextBoxPage
+public class TextBoxPage extends baseMethods
 {
     WebDriver driver;
+    WebDriverWait wait;
 
     //Page Objects Creation
     @FindBy(xpath = "//span[text()='Text Box']")
@@ -36,18 +39,24 @@ public class TextBoxPage
         PageFactory.initElements(driver,this);
     }
 
+    public void clickTextButton()
+    {
+        this.btn_textBox.click();
+    }
+
     //Method to enter details
     public void enterDetails() throws InterruptedException {
         //Click textbox button
-        this.btn_textBox.click();
-
         this.txt_userName.sendKeys("test");
         this.txt_email.sendKeys("test@gmail.com");
         this.txt_currentAddress.sendKeys("test address");
         this.txt_permanentAddress.sendKeys("perm address");
-        Thread.sleep(2000);
-        //this.btn_submit.click();
-
     }
 
+    @Override
+    public boolean isAt()
+    {
+        wait = new WebDriverWait(this.driver,15);
+        return this.wait.until((d)->this.txt_userName.isDisplayed());
+    }
 }

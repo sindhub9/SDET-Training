@@ -30,7 +30,7 @@ public class SmokeTest2
         //Configuring Remote WebDriver
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setCapability("platformName","Mac");
-        driver = new RemoteWebDriver(new URL("http://YOURIPADDRESS/wd/hub"),chromeOptions);
+        driver = new RemoteWebDriver(new URL("http://192.168.1.68:4444/wd/hub"),chromeOptions);
         driver.get("https://www.demoqa.com/elements");
     }
 

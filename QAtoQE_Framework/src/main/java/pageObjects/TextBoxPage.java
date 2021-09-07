@@ -45,10 +45,10 @@ public class TextBoxPage extends baseMethods
     }
 
     //Method to enter details
-    public void enterDetails() throws InterruptedException {
+    public void enterDetails(String email) throws InterruptedException {
         //Click textbox button
         this.txt_userName.sendKeys("test");
-        this.txt_email.sendKeys("test@gmail.com");
+        this.txt_email.sendKeys(email);
         this.txt_currentAddress.sendKeys("test address");
         this.txt_permanentAddress.sendKeys("perm address");
     }

@@ -1,0 +1,79 @@
+2021-09-14 21:34:47 WARN  smokeTest1:67 - Testing textbox module
+2021-09-14 21:34:52 WARN  smokeTest1:74 - Navigating to the url
+2021-09-14 21:34:58 INFO  smokeTest1:88 - User navigated to textbox module successfully
+2021-09-14 21:35:44 WARN  smokeTest1:67 - Testing textbox module
+2021-09-14 21:35:50 WARN  smokeTest1:74 - Navigating to the url
+2021-09-14 21:35:57 INFO  smokeTest1:88 - User navigated to textbox module successfully
+2021-09-14 21:36:49 WARN  smokeTest1:67 - Testing textbox module
+2021-09-14 21:36:54 WARN  smokeTest1:74 - Navigating to the url
+2021-09-14 21:37:12 INFO  smokeTest1:88 - User navigated to textbox module successfully
+2021-09-14 22:33:56 WARN  smokeTest1:47 - Testing API application
+2021-09-14 22:46:54 WARN  smokeTest1:47 - Testing API application
+2021-09-14 22:47:00 INFO  smokeTest1:140 - Successfully deleted 
+2021-09-14 22:48:48 WARN  smokeTest1:47 - Testing API application
+2021-09-14 22:48:52 INFO  smokeTest1:89 - Successfully created the  user 
+2021-09-14 22:48:53 INFO  smokeTest1:117 - Successfully updated the  user 
+2021-09-14 22:48:54 INFO  smokeTest1:140 - Successfully deleted 
+2021-09-14 22:48:54 INFO  smokeTest1:67 - Successfully retrieved the  user 
+2021-09-15 14:36:56 WARN  smokeTest1:47 - Testing API application
+2021-09-15 14:37:03 INFO  smokeTest1:89 - Successfully created the  user 
+2021-09-15 14:37:04 INFO  smokeTest1:117 - Successfully updated the  user 
+2021-09-15 14:37:05 INFO  smokeTest1:140 - Successfully deleted 
+2021-09-15 14:37:05 INFO  smokeTest1:67 - Successfully retrieved the  user 
+2021-09-15 14:47:29 WARN  smokeTest1:47 - Testing API application
+2021-09-15 14:47:34 INFO  smokeTest1:89 - Successfully created the  user 
+2021-09-15 14:47:36 INFO  smokeTest1:118 - Successfully updated the  user 
+2021-09-15 14:47:37 INFO  smokeTest1:141 - Successfully deleted 
+2021-09-15 14:47:37 INFO  smokeTest1:67 - Successfully retrieved the  user 
+2021-09-15 15:04:28 WARN  smokeTest1:51 - Testing API application
+2021-09-15 15:04:34 INFO  smokeTest1:126 - Successfully updated the  user 
+2021-09-15 15:07:12 WARN  smokeTest1:51 - Testing API application
+2021-09-15 15:07:16 INFO  smokeTest1:71 - Successfully retrieved the  user 
+2021-09-15 15:07:18 INFO  smokeTest1:95 - Successfully created the  user 
+2021-09-15 15:07:19 INFO  smokeTest1:125 - Successfully updated the  user 
+2021-09-15 15:07:20 INFO  smokeTest1:148 - Successfully deleted 
+2021-09-15 15:38:17 WARN  smokeTest1:51 - Testing API application
+2021-09-15 15:38:24 INFO  smokeTest1:75 - Successfully retrieved the  user 
+2021-09-15 15:38:26 INFO  smokeTest1:133 - Successfully updated the  user 
+2021-09-15 15:38:26 INFO  smokeTest1:156 - Successfully deleted 
+2021-09-15 15:38:58 WARN  smokeTest1:51 - Testing API application
+2021-09-15 15:39:04 INFO  smokeTest1:103 - Successfully created the  user 
+2021-09-15 15:48:19 WARN  smokeTest1:52 - Testing API application
+2021-09-15 15:48:24 INFO  smokeTest1:76 - Successfully retrieved the  user 
+2021-09-15 15:48:25 INFO  smokeTest1:109 - Successfully created the  user 
+2021-09-15 15:48:26 INFO  smokeTest1:139 - Successfully updated the  user 
+2021-09-15 15:48:27 INFO  smokeTest1:162 - Successfully deleted 
+2021-09-15 15:48:52 WARN  smokeTest1:52 - Testing API application
+2021-09-15 15:48:56 INFO  smokeTest1:109 - Successfully created the  user 
+2021-09-15 15:49:47 WARN  smokeTest1:52 - Testing API application
+2021-09-15 15:54:01 WARN  smokeTest1:52 - Testing API application
+2021-09-15 15:55:39 WARN  smokeTest1:52 - Testing API application
+2021-09-15 15:55:44 INFO  smokeTest1:81 - Successfully retrieved the  user 
+2021-09-15 15:58:53 WARN  smokeTest1:52 - Testing API application
+2021-09-15 15:58:58 INFO  smokeTest1:87 - Successfully retrieved the  user 
+2021-09-15 15:58:59 INFO  smokeTest1:120 - Successfully created the  user 
+2021-09-15 15:59:00 INFO  smokeTest1:150 - Successfully updated the  user 
+2021-09-15 15:59:01 INFO  smokeTest1:173 - Successfully deleted 
+2021-09-15 17:04:23 WARN  smokeTest1:52 - Testing API application
+2021-09-15 17:04:27 INFO  smokeTest1:87 - Successfully retrieved the  user 
+2021-09-15 17:04:28 INFO  smokeTest1:120 - Successfully created the  user 
+2021-09-15 17:04:29 INFO  smokeTest1:150 - Successfully updated the  user 
+2021-09-15 17:04:29 INFO  smokeTest1:173 - Successfully deleted 
+2021-09-15 18:51:08 WARN  smokeTest1:49 - Testing API application
+2021-09-15 18:51:12 INFO  smokeTest1:91 - Successfully created the  user 
+2021-09-15 18:51:13 INFO  smokeTest1:119 - Successfully updated the  user 
+2021-09-15 18:51:14 INFO  smokeTest1:142 - Successfully deleted 
+2021-09-15 18:51:14 INFO  smokeTest1:69 - Successfully retrieved the  user 
+2021-09-15 20:15:54 WARN  smokeTest1:53 - Testing API application
+2021-09-15 20:21:34 WARN  smokeTest1:53 - Testing API application
+2021-09-15 20:21:42 INFO  smokeTest1:88 - Successfully retrieved the  user 
+2021-09-15 20:21:44 INFO  smokeTest1:121 - Successfully created the  user 
+2021-09-15 20:21:45 INFO  smokeTest1:151 - Successfully updated the  user 
+2021-09-15 20:21:46 INFO  smokeTest1:174 - Successfully deleted 
+2021-09-15 20:26:30 WARN  smokeTest1:53 - Testing API application
+2021-09-15 20:47:06 WARN  smokeTest1:53 - Testing API application
+2021-09-15 21:20:03 WARN  smokeTest1:53 - Testing API application
+2021-09-15 21:20:13 INFO  smokeTest1:88 - Successfully retrieved the  user 
+2021-09-15 21:20:16 INFO  smokeTest1:121 - Successfully created the  user 
+2021-09-15 21:20:17 INFO  smokeTest1:151 - Successfully updated the  user 
+2021-09-15 21:20:18 INFO  smokeTest1:174 - Successfully deleted 

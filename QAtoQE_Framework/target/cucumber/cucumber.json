@@ -1,0 +1,415 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-16T03:10:09.308Z",
+        "line": 5,
+        "name": "Creating GET Call for single user",
+        "description": "",
+        "id": "creating-smoke-test-for-reqres.in;creating-get-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2225778000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am baseURI of the reqres application",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2612500000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I passing endpoints for  single user",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iPassingEndpointsForSingleUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2809000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121556000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate email as janet.weaver@reqres.in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "janet.weaver@reqres.in",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateEmailAsJanetWeaverReqresIn(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeAPI"
+          },
+          {
+            "name": "@TC001"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T03:10:14.301Z",
+        "line": 13,
+        "name": "Creating GET Call for LIST users",
+        "description": "",
+        "id": "creating-smoke-test-for-reqres.in;creating-get-call-for-list-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am baseURI of the reqres application",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369161000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I passing endpoints for  list user",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iPassingEndpointsForListUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I validate the status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeAPI"
+          },
+          {
+            "name": "@TC002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T03:10:14.682Z",
+        "line": 20,
+        "name": "Creating POST Call to create",
+        "description": "",
+        "id": "creating-smoke-test-for-reqres.in;creating-post-call-to-create",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am baseURI of the reqres application",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 784662000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I passing endpoints to create",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iPassingEndpointsToCreate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I validate the status code as 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeAPI"
+          },
+          {
+            "name": "@TC003"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T03:10:15.477Z",
+        "line": 27,
+        "name": "Creating POST Call for LOGIN user",
+        "description": "",
+        "id": "creating-smoke-test-for-reqres.in;creating-post-call-for-login-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am baseURI of the reqres application",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334558000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I passing endpoints for  login user",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iPassingEndpointsForLoginUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I validate the status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeAPI"
+          },
+          {
+            "name": "@TC004"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T03:10:15.824Z",
+        "line": 34,
+        "name": "Creating PUT Call to update",
+        "description": "",
+        "id": "creating-smoke-test-for-reqres.in;creating-put-call-to-update",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am baseURI of the reqres application",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 692971000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I passing endpoints to update",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iPassingEndpointsToUpdate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I validate the status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 944000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I validate job as zion resident",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zion resident",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateJobAsZionResident(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeAPI"
+          },
+          {
+            "name": "@TC005"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T03:10:16.529Z",
+        "line": 42,
+        "name": "Creating DELETE Call to delete",
+        "description": "",
+        "id": "creating-smoke-test-for-reqres.in;creating-delete-call-to-delete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am baseURI of the reqres application",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 379726000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I passing endpoints to delete",
+            "match": {
+              "location": "stepDefinations.reqresAPISteps.iPassingEndpointsToDelete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I validate the status code as 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeAPI"
+          },
+          {
+            "name": "@TC006"
+          }
+        ]
+      }
+    ],
+    "name": "Creating smoke test for reqres.in",
+    "description": "",
+    "id": "creating-smoke-test-for-reqres.in",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/reqresAPI.feature",
+    "tags": []
+  }
+]

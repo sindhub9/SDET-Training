@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-15T21:49:57 CDT" name="Surefire suite" finished-at="2021-09-15T21:50:13 CDT" duration-ms="15538">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-15T21:49:57 CDT" name="Surefire test" finished-at="2021-09-15T21:50:13 CDT" duration-ms="15538">
+      <class name="SmokeTests.cucumberRunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:49:57 CDT" name="setUpClass" finished-at="2021-09-15T21:49:59 CDT" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:49:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-15T21:50:09 CDT" duration-ms="10372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating GET Call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke test for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:50:09 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-15T21:50:10 CDT" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating GET Call for LIST users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke test for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:50:10 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-15T21:50:11 CDT" duration-ms="977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating POST Call to create"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke test for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:50:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-15T21:50:11 CDT" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating POST Call for LOGIN user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke test for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:50:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-15T21:50:12 CDT" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating PUT Call to update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke test for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:50:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-15T21:50:12 CDT" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating DELETE Call to delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke test for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-15T21:50:12 CDT" name="tearDownClass" finished-at="2021-09-15T21:50:13 CDT" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SmokeTests.cucumberRunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

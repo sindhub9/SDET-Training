@@ -5,7 +5,7 @@ Feature: Creating smoke tests for reqres.in
   Scenario: Creating GET Call for single user
     Given I am baseURI of the reqres application
     When I passing endpoints for  single user
-    Then I validate the status code as 200
+    Then I validate the status code as 201
     And I validate email as janet.weaver@reqres.in
 
   @smokeAPI

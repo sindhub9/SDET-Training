@@ -1,53 +1,59 @@
-package smoketests;
+package SmokeTests;
 
-import base.DriverFactory;
-import base.DriverType;
+import base.driverFactory;
+import base.driverType;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pageObjects.ButtonPage;
-import pageObjects.TextBoxPage;
+import pageObject.buttonPage;
+import pageObject.textBoxPage;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
-public class SmokeTest2
+public class smokeTest2
 {
-    //Calling WebDriver
+    //Calling web driver
     private WebDriver driver;
 
-    //Creating TextPage object
-    ButtonPage buttonPage;
+    //Creating objects for page
+
+    buttonPage buttonpage;
 
     @BeforeTest
-    public void setup() throws MalformedURLException {
-        //driver = DriverFactory.getDriver(DriverType.CHROME);
-        //Configuring Remote WebDriver
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setCapability("platformName","Mac");
-        driver = new RemoteWebDriver(new URL("http://192.168.1.68:4444/wd/hub"),chromeOptions);
-        driver.get("https://www.demoqa.com/elements");
+    public void setUp() throws MalformedURLException {
+        driver = driverFactory.getDriver(driverType.CHROME);
+
+        //Configuring remote webdriver
+        // ChromeOptions chromeOptions = new ChromeOptions();
+        //chromeOptions.setCapability("platformName","Mac");
+        //driver = new RemoteWebDriver(new URL("http://192.168.0.213:4444/wd/hub"),chromeOptions);
+
+        driver.get("https://demoqa.com/elements");
     }
-
-
     @Test
-    public void TC002() throws InterruptedException, IOException {
-        buttonPage = new ButtonPage(driver);
-        buttonPage.clickButtonOption();
-        Assert.assertTrue(this.buttonPage.isAt());
-        buttonPage.clickingButtons();
-        buttonPage.screenshot("buttonPagescreenshot",driver);
-    }
+    private void TC001() throws IOException {
 
+
+
+        buttonpage = new buttonPage(driver);
+       buttonpage.clickButtonOption();
+        this.buttonpage.isAt();
+        buttonpage.clickButtons();
+
+        buttonpage.screenshot("buttonpagescreenshot",driver);
+
+    }
 
     @AfterTest
     public void tearDown()
+
     {
         driver.close();
     }
+
+
+
 }

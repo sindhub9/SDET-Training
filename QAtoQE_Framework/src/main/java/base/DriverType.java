@@ -1,6 +1,6 @@
 package base;
 
-public enum DriverType
+public enum driverType
 {
     CHROME,
     FIREFOX,

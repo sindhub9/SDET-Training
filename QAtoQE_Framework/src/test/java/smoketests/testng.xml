@@ -1,16 +1,16 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name = "TestNG" parallel="tests">
 
-    <test name = "test-1">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG" parallel="tests">
+    <test name="test-1" >
         <classes>
-            <class name = "smoketests.SmokeTest1" />
+            <class name="SmokeTests.smokeTest1"/>
         </classes>
     </test>
 
-    <test name = "test-2">
+    <test name="test-2">
         <classes>
-            <class name = "smoketests.SmokeTest2" />
+            <class name="SmokeTests.smokeTest2"/>
+
         </classes>
     </test>
-
 </suite>

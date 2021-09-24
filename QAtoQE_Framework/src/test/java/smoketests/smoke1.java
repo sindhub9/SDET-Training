@@ -24,7 +24,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-public class smoketest1 {
+public class smoke1 {
 
     //Calling web driver
     private WebDriver driver;
@@ -38,7 +38,7 @@ public class smoketest1 {
     ExtentTest test;
 
     //Object for log4j
-   Logger logger= Logger.getLogger(smoketest1.class);
+   Logger logger= Logger.getLogger(smoke1.class);
 
     @BeforeTest
     public void setUp() throws MalformedURLException

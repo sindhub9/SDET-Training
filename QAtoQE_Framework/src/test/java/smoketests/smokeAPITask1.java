@@ -24,7 +24,7 @@ public class smokeAPITask1
     ExtentTest test;
 
     //Object for log4j
-    Logger logger= Logger.getLogger(smoketest1.class);
+    Logger logger= Logger.getLogger(smoke1.class);
 
 
     @BeforeTest

@@ -11,7 +11,7 @@ import pageObject.buttonPage;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-public class smoketest2
+public class smoke2
 {
     //Calling web driver
     private WebDriver driver;

@@ -6,43 +6,43 @@
     <groups>
     </groups>
     <test started-at="2021-09-14T21:36:48 CDT" name="test-2" finished-at="2021-09-14T21:37:31 CDT" duration-ms="43589">
-      <class name="Smoketests.smoketest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Smoketests.smoketest2@41ee392b]" started-at="2021-09-14T21:36:48 CDT" name="setUp" finished-at="2021-09-14T21:37:24 CDT" duration-ms="36032" status="PASS">
+      <class name="Smoketests.smoke2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Smoketests.smoke2@41ee392b]" started-at="2021-09-14T21:36:48 CDT" name="setUp" finished-at="2021-09-14T21:37:24 CDT" duration-ms="36032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001()[pri:0, instance:Smoketests.smoketest2@41ee392b]" started-at="2021-09-14T21:37:24 CDT" name="TC001" finished-at="2021-09-14T21:37:31 CDT" duration-ms="6960" status="PASS">
+        <test-method signature="TC001()[pri:0, instance:Smoketests.smoke2@41ee392b]" started-at="2021-09-14T21:37:24 CDT" name="TC001" finished-at="2021-09-14T21:37:31 CDT" duration-ms="6960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Smoketests.smoketest2@41ee392b]" started-at="2021-09-14T21:37:31 CDT" name="tearDown" finished-at="2021-09-14T21:37:31 CDT" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Smoketests.smoke2@41ee392b]" started-at="2021-09-14T21:37:31 CDT" name="tearDown" finished-at="2021-09-14T21:37:31 CDT" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Smoketests.smoketest2 -->
+      </class> <!-- Smoketests.smoke2 -->
     </test> <!-- test-2 -->
     <test started-at="2021-09-14T21:36:48 CDT" name="test-1" finished-at="2021-09-14T21:37:33 CDT" duration-ms="45518">
-      <class name="Smoketests.smoketest1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Smoketests.smoketest1@58fdd99]" started-at="2021-09-14T21:36:48 CDT" name="setUp" finished-at="2021-09-14T21:37:08 CDT" duration-ms="20026" status="PASS">
+      <class name="Smoketests.smoke1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Smoketests.smoke1@58fdd99]" started-at="2021-09-14T21:36:48 CDT" name="setUp" finished-at="2021-09-14T21:37:08 CDT" duration-ms="20026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001()[pri:0, instance:Smoketests.smoketest1@58fdd99]" started-at="2021-09-14T21:37:08 CDT" name="TC001" finished-at="2021-09-14T21:37:33 CDT" duration-ms="25177" status="PASS">
+        <test-method signature="TC001()[pri:0, instance:Smoketests.smoke1@58fdd99]" started-at="2021-09-14T21:37:08 CDT" name="TC001" finished-at="2021-09-14T21:37:33 CDT" duration-ms="25177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Smoketests.smoketest1@58fdd99]" started-at="2021-09-14T21:37:33 CDT" name="screenShot" finished-at="2021-09-14T21:37:33 CDT" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Smoketests.smoke1@58fdd99]" started-at="2021-09-14T21:37:33 CDT" name="screenShot" finished-at="2021-09-14T21:37:33 CDT" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                  <![CDATA[[TestResult name=TC001 status=SUCCESS method=smokeTest1.TC001()[pri:0, instance:Smoketests.smoketest1@58fdd99] output={null}]]]>
+                  <![CDATA[[TestResult name=TC001 status=SUCCESS method=smokeTest1.TC001()[pri:0, instance:Smoketests.smoke1@58fdd99] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-      </class> <!-- Smoketests.smoketest1 -->
+      </class> <!-- Smoketests.smoke1 -->
     </test> <!-- test-1 -->
   </suite> <!-- TestNG -->
 </testng-results>

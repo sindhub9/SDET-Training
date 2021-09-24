@@ -1,4 +1,4 @@
-package SmokeTests;
+package Smoketests;
 
 
 import com.jayway.jsonpath.JsonPath;

@@ -1,4 +1,4 @@
-package SmokeTests;
+package Smoketests;
 
 import base.driverFactory;
 import base.driverType;

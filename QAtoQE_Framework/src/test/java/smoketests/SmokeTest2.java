@@ -1,4 +1,4 @@
-package SmokeTests;
+package Smoketests;
 
 import base.driverFactory;
 import base.driverType;
@@ -7,11 +7,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageObject.buttonPage;
-import pageObject.textBoxPage;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.util.concurrent.TimeUnit;
 
 public class smoketest2
 {

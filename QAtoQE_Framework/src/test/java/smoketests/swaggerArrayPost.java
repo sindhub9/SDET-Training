@@ -1,7 +1,6 @@
-package SmokeTests;
+package Smoketests;
 
 import com.github.javafaker.Faker;
-import com.jayway.jsonpath.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import pojos.swaggerPostToOrderPet.arrayRoot;

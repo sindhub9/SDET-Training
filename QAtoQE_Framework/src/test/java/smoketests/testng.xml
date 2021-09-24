@@ -3,13 +3,13 @@
 <suite name="TestNG" parallel="tests">
     <test name="test-1" >
         <classes>
-            <class name="SmokeTests.smoketest1"/>
+            <class name="Smoketests.smoketest1"/>
         </classes>
     </test>
 
     <test name="test-2">
         <classes>
-            <class name="SmokeTests.smoketest2"/>
+            <class name="Smoketests.smoketest2"/>
 
         </classes>
     </test>

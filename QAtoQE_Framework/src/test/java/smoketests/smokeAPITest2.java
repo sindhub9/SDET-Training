@@ -1,4 +1,4 @@
-package SmokeTests;
+package Smoketests;
 
 import base.baseAPI;
 import com.aventstack.extentreports.ExtentReports;

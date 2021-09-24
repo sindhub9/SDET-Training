@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-TestNG">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG" title="SmokeTests.smoketest2" class="method navigator-link" hash-for-method="TC001">TC001</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG" title="Smoketests.smoketest2" class="method navigator-link" hash-for-method="TC001">TC001</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG" title="SmokeTests.smoketest1" class="method navigator-link" hash-for-method="TC001">TC001</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG" title="Smoketests.smoketest1" class="method navigator-link" hash-for-method="TC001">TC001</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestNG -->
@@ -127,7 +127,7 @@
           <div class="suite-TestNG-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SmokeTests.smoketest1</span>
+              <span class="class-name">Smoketests.smoketest1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -142,7 +142,7 @@
           <div class="suite-TestNG-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SmokeTests.smoketest2</span>
+              <span class="class-name">Smoketests.smoketest2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -157,7 +157,7 @@
         </div> <!-- panel TestNG -->
         <div panel-name="test-xml-TestNG" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/RaNa/IdeaProjects/QAtoQE_Framework/src/test/java/SmokeTests/testng.xml</span>
+            <span class="header-content">/Users/RaNa/IdeaProjects/QAtoQE_Framework/src/test/java/Smoketests/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -166,12 +166,12 @@
 &lt;suite parallel=&quot;tests&quot; name=&quot;TestNG&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;test-1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SmokeTests.smoketest1&quot;/&gt;
+      &lt;class name=&quot;Smoketests.smoketest1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test-1 --&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;test-2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SmokeTests.smoketest2&quot;/&gt;
+      &lt;class name=&quot;Smoketests.smoketest2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test-2 --&gt;
 &lt;/suite&gt; &lt;!-- TestNG --&gt;
@@ -207,25 +207,25 @@
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_TestNG');
-function tableData_TestNG() {
-var data = new google.visualization.DataTable();
-data.addColumn('number', 'Number');
-data.addColumn('string', 'Method');
-data.addColumn('string', 'Class');
-data.addColumn('number', 'Time (ms)');
-data.addRows(2);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC001')
-data.setCell(0, 2, 'SmokeTests.smoketest1')
-data.setCell(0, 3, 25177);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC001')
-data.setCell(1, 2, 'SmokeTests.smoketest2')
-data.setCell(1, 3, 6960);
-window.suiteTableData['TestNG']= { tableData: data, tableDiv: 'times-div-TestNG'}
-return data;
-}
+                  suiteTableInitFunctions.push('tableData_TestNG');
+                  function tableData_TestNG() {
+                  var data = new google.visualization.DataTable();
+                  data.addColumn('number', 'Number');
+                  data.addColumn('string', 'Method');
+                  data.addColumn('string', 'Class');
+                  data.addColumn('number', 'Time (ms)');
+                  data.addRows(2);
+                  data.setCell(0, 0, 0)
+                  data.setCell(0, 1, 'TC001')
+                  data.setCell(0, 2, 'Smoketests.smoketest1')
+                  data.setCell(0, 3, 25177);
+                  data.setCell(1, 0, 1)
+                  data.setCell(1, 1, 'TC001')
+                  data.setCell(1, 2, 'Smoketests.smoketest2')
+                  data.setCell(1, 3, 6960);
+                  window.suiteTableData['TestNG']= { tableData: data, tableDiv: 'times-div-TestNG'}
+                  return data;
+                  }
               </script>
               <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-TestNG">
@@ -253,28 +253,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SmokeTests.smoketest1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Smoketests.smoketest1</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">SmokeTests.smoketest2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Smoketests.smoketest2</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">SmokeTests.smoketest1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Smoketests.smoketest1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC001</span>
                 <span class="method-start">20308 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">SmokeTests.smoketest2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Smoketests.smoketest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC001</span>
                 <span class="method-start">36037 ms</span>
@@ -285,9 +285,9 @@ return data;
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">SmokeTests.smoketest1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Smoketests.smoketest1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">screenShot([TestResult name=TC001 status=SUCCESS method=smokeTest1.TC001()[pri:0, instance:SmokeTests.smokeTest...)</span>
+                <span class="method-name">screenShot([TestResult name=TC001 status=SUCCESS method=smokeTest1.TC001()[pri:0, instance:Smoketests.smokeTest...)</span>
                 <span class="method-start">45486 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->

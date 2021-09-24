@@ -1,12 +1,9 @@
 package SmokeTests;
 
-import base.baseMethods;
 import base.driverFactory;
 import base.driverType;
-import base.utility;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
@@ -16,24 +13,18 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pageObject.buttonPage;
 import pageObject.textBoxPage;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
-public class smokeTest1 {
+public class smoketest1 {
 
     //Calling web driver
     private WebDriver driver;
@@ -47,7 +38,7 @@ public class smokeTest1 {
     ExtentTest test;
 
     //Object for log4j
-   Logger logger= Logger.getLogger(smokeTest1.class);
+   Logger logger= Logger.getLogger(smoketest1.class);
 
     @BeforeTest
     public void setUp() throws MalformedURLException

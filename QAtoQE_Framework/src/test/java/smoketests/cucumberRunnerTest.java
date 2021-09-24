@@ -5,12 +5,12 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         strict = true,
-        features = "src/main/resources/features",
+        features = "src/main/resources/features/buttonPage.feature",
         plugin ={"pretty","html:target/sie/cucumber-pretty","json:target/cucumber/cucumber.json"},
         glue = {"stepDefinations"},
         //plugin ={"pretty","html:target/cucumber-reports"},
 
-        tags={"@smokeAPI"},
+        tags={"@sanityTest"},
         monochrome = true
 )
 

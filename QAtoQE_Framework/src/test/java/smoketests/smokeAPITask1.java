@@ -1,7 +1,5 @@
 package SmokeTests;
 
-import base.driverFactory;
-import base.driverType;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -11,7 +9,6 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -27,7 +24,7 @@ public class smokeAPITask1
     ExtentTest test;
 
     //Object for log4j
-    Logger logger= Logger.getLogger(smokeTest1.class);
+    Logger logger= Logger.getLogger(smoketest1.class);
 
 
     @BeforeTest

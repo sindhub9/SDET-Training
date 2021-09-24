@@ -3,13 +3,13 @@
 <suite parallel="tests" name="Failed suite [TestNG]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="tests" name="test-1(failed)">
     <classes>
-      <class name="SmokeTests.smokeTest1">
+      <class name="SmokeTests.smoketest1">
         <methods>
           <include name="tearDown"/>
           <include name="TC001"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- SmokeTests.smokeTest1 -->
+      </class> <!-- SmokeTests.smoketest1 -->
     </classes>
   </test> <!-- test-1(failed) -->
 </suite> <!-- Failed suite [TestNG] -->

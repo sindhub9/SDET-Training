@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,51 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
+                    <div class="method-list-content failed suite-Surefire_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="newGmailAPI.newGmailAPITest" class="method navigator-link" hash-for-method="gmailAPITest">gmailAPITest</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Testing button elements&quot;, &quot;Button page Options tests&quot;)">runScenario("Testing button elements", "Button page Options tests")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Creating POST Call to create&quot;, &quot;Creating smoke test for reqres.in&quot;)">runScenario("Creating POST Call to create", "Creating smoke test for reqres.in")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Creating PUT Call to update&quot;, &quot;Creating smoke test for reqres.in&quot;)">runScenario("Creating PUT Call to update", "Creating smoke test for reqres.in")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Creating DELETE Call to delete&quot;, &quot;Creating smoke test for reqres.in&quot;)">runScenario("Creating DELETE Call to delete", "Creating smoke test for reqres.in")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Creating POST Call for LOGIN user&quot;, &quot;Creating smoke test for reqres.in&quot;)">runScenario("Creating POST Call for LOGIN user", "Creating smoke test for reqres.in")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Creating GET Call for single user&quot;, &quot;Creating smoke test for reqres.in&quot;)">runScenario("Creating GET Call for single user", "Creating smoke test for reqres.in")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SmokeTests.cucumberRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;Creating GET Call for LIST users&quot;, &quot;Creating smoke test for reqres.in&quot;)">runScenario("Creating GET Call for LIST users", "Creating smoke test for reqres.in")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -147,89 +117,78 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">SmokeTests.cucumberRunnerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Creating POST Call to create&quot;, &quot;Creating smoke test for reqres.in&quot;)">
-                  </a> <!-- runScenario("Creating POST Call to create", "Creating smoke test for reqres.in") -->
+                  <a name="runScenario(&quot;Testing button elements&quot;, &quot;Button page Options tests&quot;)">
+                  </a> <!-- runScenario("Testing button elements", "Button page Options tests") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Creating POST Call to create", "Creating smoke test for reqres.in")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Creating PUT Call to update&quot;, &quot;Creating smoke test for reqres.in&quot;)">
-                  </a> <!-- runScenario("Creating PUT Call to update", "Creating smoke test for reqres.in") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Creating PUT Call to update", "Creating smoke test for reqres.in")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Creating DELETE Call to delete&quot;, &quot;Creating smoke test for reqres.in&quot;)">
-                  </a> <!-- runScenario("Creating DELETE Call to delete", "Creating smoke test for reqres.in") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Creating DELETE Call to delete", "Creating smoke test for reqres.in")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Creating POST Call for LOGIN user&quot;, &quot;Creating smoke test for reqres.in&quot;)">
-                  </a> <!-- runScenario("Creating POST Call for LOGIN user", "Creating smoke test for reqres.in") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Creating POST Call for LOGIN user", "Creating smoke test for reqres.in")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Creating GET Call for single user&quot;, &quot;Creating smoke test for reqres.in&quot;)">
-                  </a> <!-- runScenario("Creating GET Call for single user", "Creating smoke test for reqres.in") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Creating GET Call for single user", "Creating smoke test for reqres.in")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Creating GET Call for LIST users&quot;, &quot;Creating smoke test for reqres.in&quot;)">
-                  </a> <!-- runScenario("Creating GET Call for LIST users", "Creating smoke test for reqres.in") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Creating GET Call for LIST users", "Creating smoke test for reqres.in")</span>
+                  <span class="parameters">("Testing button elements", "Button page Options tests")</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;raj.local&apos;, ip: &apos;fe80:0:0:0:14a0:5895:54a4:bde2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025
+1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443
+2   chromedriver                        0x0000000108aa1958 chromedriver + 182616
+3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576
+4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227
+5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654
+6   chromedriver                        0x0000000108af89d2 chromedriver + 539090
+7   chromedriver                        0x0000000108af2c93 chromedriver + 515219
+8   chromedriver                        0x0000000108ac98be chromedriver + 346302
+9   chromedriver                        0x0000000108acab25 chromedriver + 351013
+10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447
+11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945
+12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867
+13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186
+14  chromedriver                        0x0000000108cccffc chromedriver + 2457596
+15  chromedriver                        0x0000000108d04148 chromedriver + 2683208
+16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601
+17  chromedriver                        0x0000000108d14848 chromedriver + 2750536
+18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.driverFactory.lambda$static$0(driverFactory.java:21)
+	at base.driverFactory.getDriver(driverFactory.java:41)
+	at stepDefinations.buttonPageSteps.navigatingButtonPageApplication(buttonPageSteps.java:27)
+	at ✽.I am navigating into button page application(file:///Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework/src/main/resources/features/buttonPage.feature:6)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">newGmailAPI.newGmailAPITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="gmailAPITest">
-                  </a> <!-- gmailAPITest -->
-                  <span class="method-name">gmailAPITest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -242,7 +201,6 @@
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;SmokeTests.cucumberRunnerTest&quot;/&gt;
-      &lt;class name=&quot;newGmailAPI.newGmailAPITest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -256,7 +214,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -290,40 +248,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'SmokeTests.cucumberRunnerTest')
-data.setCell(0, 3, 30070);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'SmokeTests.cucumberRunnerTest')
-data.setCell(1, 3, 1993);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'SmokeTests.cucumberRunnerTest')
-data.setCell(2, 3, 1000);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'gmailAPITest')
-data.setCell(3, 2, 'newGmailAPI.newGmailAPITest')
-data.setCell(3, 3, 994);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'runScenario')
-data.setCell(4, 2, 'SmokeTests.cucumberRunnerTest')
-data.setCell(4, 3, 906);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'runScenario')
-data.setCell(5, 2, 'SmokeTests.cucumberRunnerTest')
-data.setCell(5, 3, 856);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'runScenario')
-data.setCell(6, 2, 'SmokeTests.cucumberRunnerTest')
-data.setCell(6, 3, 711);
+data.setCell(0, 3, 5796);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -355,40 +289,15 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Creating GET Call for single user", "Creating smoke test for reqres.in")</span>
-                <span class="method-start">5229 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Creating GET Call for LIST users", "Creating smoke test for reqres.in")</span>
-                <span class="method-start">35343 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Creating POST Call to create", "Creating smoke test for reqres.in")</span>
-                <span class="method-start">36345 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Creating POST Call for LOGIN user", "Creating smoke test for reqres.in")</span>
-                <span class="method-start">38339 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Creating PUT Call to update", "Creating smoke test for reqres.in")</span>
-                <span class="method-start">39087 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Creating DELETE Call to delete", "Creating smoke test for reqres.in")</span>
-                <span class="method-start">39944 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Testing button elements", "Button page Options tests")</span>
+                <span class="method-start">654 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">40888 ms</span>
+                <span class="method-start">6546 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">newGmailAPI.newGmailAPITest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">gmailAPITest</span>
-                <span class="method-start">42495 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
-public class smokeTest2
+public class smoketest2
 {
     //Calling web driver
     private WebDriver driver;

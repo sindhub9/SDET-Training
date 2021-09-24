@@ -9,16 +9,62 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,762</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,943</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">SmokeTests.cucumberRunnerTest</td><td><a href="#m0">runScenario</a></td><td rowspan="6">1632273474899</td><td rowspan="6">1993</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="passedodd"><td rowspan="1">newGmailAPI.newGmailAPITest</td><td><a href="#m6">gmailAPITest</a></td><td rowspan="1">1632273481049</td><td rowspan="1">994</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SmokeTests.cucumberRunnerTest</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1632438439479</td><td rowspan="1">5796</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Creating POST Call to create&quot;</td><td>&quot;Creating smoke test for reqres.in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Creating PUT Call to update&quot;</td><td>&quot;Creating smoke test for reqres.in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Creating DELETE Call to delete&quot;</td><td>&quot;Creating smoke test for reqres.in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Creating POST Call for LOGIN user&quot;</td><td>&quot;Creating smoke test for reqres.in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Creating GET Call for single user&quot;</td><td>&quot;Creating smoke test for reqres.in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Creating GET Call for LIST users&quot;</td><td>&quot;Creating smoke test for reqres.in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">newGmailAPI.newGmailAPITest#gmailAPITest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">SmokeTests.cucumberRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Testing button elements&quot;</td><td>&quot;Button page Options tests&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;raj.local&apos;, ip: &apos;fe80:0:0:0:14a0:5895:54a4:bde2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025
+1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443
+2   chromedriver                        0x0000000108aa1958 chromedriver + 182616
+3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576
+4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227
+5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654
+6   chromedriver                        0x0000000108af89d2 chromedriver + 539090
+7   chromedriver                        0x0000000108af2c93 chromedriver + 515219
+8   chromedriver                        0x0000000108ac98be chromedriver + 346302
+9   chromedriver                        0x0000000108acab25 chromedriver + 351013
+10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447
+11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945
+12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867
+13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186
+14  chromedriver                        0x0000000108cccffc chromedriver + 2457596
+15  chromedriver                        0x0000000108d04148 chromedriver + 2683208
+16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601
+17  chromedriver                        0x0000000108d14848 chromedriver + 2750536
+18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148
+19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.driverFactory.lambda$static$0(driverFactory.java:21)
+	at base.driverFactory.getDriver(driverFactory.java:41)
+	at stepDefinations.buttonPageSteps.navigatingButtonPageApplication(buttonPageSteps.java:27)
+	at ✽.I am navigating into button page application(file:///Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework/src/main/resources/features/buttonPage.feature:6)
+... Removed 5 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

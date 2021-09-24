@@ -9,12 +9,12 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class newGmailAPITest
+public class newGmailAPITest1
 {
     String accessToken = "Bearer ya29.a0ARrdaM_TWkIi1LL3obfhIxFS-cdByL7G2OykauRade7BmYxk6igD4caXKJoo4tsvkzyAdP-sOgOKKMSU8c82je6x_OpPd-3bT9pQUxEFOLH8gG88Dvf3LeH5hUp8VZnvD1ZeZcIaa6SUZmt82FIfEMBlHJbC";
 
     @Test
-    public void gmailAPITest()
+    public void newgmailAPITests()
     {
         String msg = "From: sdetqatoqe9@gmail.com\n" +
                 "To: sdetqatoqe9@gmail.com\n" +

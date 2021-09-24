@@ -29,7 +29,7 @@ public class smokeAPITest2 extends baseAPI
     ExtentTest test;
 
     //Object for log4j
-    Logger logger= Logger.getLogger(smokeTest1.class);
+    Logger logger= Logger.getLogger(smoketest1.class);
 
     //pojo object
     postPojo pPojo;

@@ -1,4 +1,4 @@
-Feature: Creating smoke test for reqres.in
+Feature: Creating smoke tests for reqres.in
 
   @smokeAPI
     @TC001

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SmokeTests.cucumberRunnerTest" time="8.372" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Smoketests.cucumberRunnerTest" time="10.056" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="14+36"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-14.jdk/Contents/Home/lib"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.boot.library.path" value="/Users/RaNa/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework"/>
-    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
-    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -15,7 +15,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="14+36"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/k0/x47hrjj112b83wbpdskmqn380000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
@@ -26,7 +26,7 @@
     <property name="java.library.path" value="/Users/RaNa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="maven.conf" value="/Volumes/RaNa/Sindhu_Traninig/apache-maven-3.8.1/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="58.0"/>
+    <property name="java.class.version" value="60.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.15.7"/>
@@ -34,125 +34,29 @@
     <property name="user.home" value="/Users/RaNa"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="14"/>
+    <property name="java.specification.version" value="16"/>
     <property name="user.name" value="RaNa"/>
     <property name="java.class.path" value="/Volumes/RaNa/Sindhu_Traninig/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="14"/>
+    <property name="java.vm.specification.version" value="16"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-14.jdk/Contents/Home"/>
+    <property name="java.home" value="/Users/RaNa/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="14"/>
-    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="/Volumes/RaNa/Sindhu_Traninig/apache-maven-3.8.1"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2020-03-17"/>
-    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Zulu14.27+1-CA"/>
   </properties>
-  <testcase name="runScenario" classname="SmokeTests.cucumberRunnerTest" time="6.37">
-    <failure message="session not created: This version of ChromeDriver only supports Chrome version 92&#10;Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;raj.local&apos;, ip: &apos;fe80:0:0:0:14a0:5895:54a4:bde2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025&#10;1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443&#10;2   chromedriver                        0x0000000108aa1958 chromedriver + 182616&#10;3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576&#10;4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227&#10;5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654&#10;6   chromedriver                        0x0000000108af89d2 chromedriver + 539090&#10;7   chromedriver                        0x0000000108af2c93 chromedriver + 515219&#10;8   chromedriver                        0x0000000108ac98be chromedriver + 346302&#10;9   chromedriver                        0x0000000108acab25 chromedriver + 351013&#10;10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447&#10;11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945&#10;12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867&#10;13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186&#10;14  chromedriver                        0x0000000108cccffc chromedriver + 2457596&#10;15  chromedriver                        0x0000000108d04148 chromedriver + 2683208&#10;16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601&#10;17  chromedriver                        0x0000000108d14848 chromedriver + 2750536&#10;18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148&#10;19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 92
-Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'raj.local', ip: 'fe80:0:0:0:14a0:5895:54a4:bde2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025
-1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443
-2   chromedriver                        0x0000000108aa1958 chromedriver + 182616
-3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576
-4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227
-5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654
-6   chromedriver                        0x0000000108af89d2 chromedriver + 539090
-7   chromedriver                        0x0000000108af2c93 chromedriver + 515219
-8   chromedriver                        0x0000000108ac98be chromedriver + 346302
-9   chromedriver                        0x0000000108acab25 chromedriver + 351013
-10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447
-11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945
-12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867
-13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186
-14  chromedriver                        0x0000000108cccffc chromedriver + 2457596
-15  chromedriver                        0x0000000108d04148 chromedriver + 2683208
-16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601
-17  chromedriver                        0x0000000108d14848 chromedriver + 2750536
-18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148
-19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15
-
-</failure>
-    <system-out><![CDATA[
-@sanityTest
-Scenario: Testing button elements                    # src/main/resources/features/buttonPage.feature:5
-  Given I am navigating into button page application # stepDefinations.buttonPageSteps.navigatingButtonPageApplication()
-      org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
-Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'raj.local', ip: 'fe80:0:0:0:14a0:5895:54a4:bde2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025
-1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443
-2   chromedriver                        0x0000000108aa1958 chromedriver + 182616
-3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576
-4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227
-5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654
-6   chromedriver                        0x0000000108af89d2 chromedriver + 539090
-7   chromedriver                        0x0000000108af2c93 chromedriver + 515219
-8   chromedriver                        0x0000000108ac98be chromedriver + 346302
-9   chromedriver                        0x0000000108acab25 chromedriver + 351013
-10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447
-11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945
-12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867
-13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186
-14  chromedriver                        0x0000000108cccffc chromedriver + 2457596
-15  chromedriver                        0x0000000108d04148 chromedriver + 2683208
-16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601
-17  chromedriver                        0x0000000108d14848 chromedriver + 2750536
-18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148
-19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at base.driverFactory.lambda$static$0(driverFactory.java:21)
-	at base.driverFactory.getDriver(driverFactory.java:41)
-	at stepDefinations.buttonPageSteps.navigatingButtonPageApplication(buttonPageSteps.java:27)
-	at ✽.I am navigating into button page application(file:///Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework/src/main/resources/features/buttonPage.feature:6)
-
-  When I click on button option                      # stepDefinations.buttonPageSteps.iClickOnButtonOption()
-  And I click all the buttons                        # stepDefinations.buttonPageSteps.iClickAllTheButtons()
-  Then I quit the button  page application           # stepDefinations.buttonPageSteps.iQuitTheButtonPageApplication()
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 38935
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
+  <testcase name="runScenario" classname="Smoketests.cucumberRunnerTest" time="5.416"/>
+  <testcase name="runScenario" classname="Smoketests.cucumberRunnerTest" time="0.228"/>
+  <testcase name="runScenario" classname="Smoketests.cucumberRunnerTest" time="0.676"/>
+  <testcase name="runScenario" classname="Smoketests.cucumberRunnerTest" time="0.405"/>
+  <testcase name="runScenario" classname="Smoketests.cucumberRunnerTest" time="0.414"/>
+  <testcase name="runScenario" classname="Smoketests.cucumberRunnerTest" time="0.418"/>
 </testsuite>

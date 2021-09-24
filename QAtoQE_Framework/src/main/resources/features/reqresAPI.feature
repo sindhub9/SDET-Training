@@ -20,7 +20,7 @@ Feature: Creating smoke tests for reqres.in
   Scenario: Creating POST Call to create
     Given I am baseURI of the reqres application
     When I passing endpoints to create
-    Then I validate the status code as 201
+    Then I validate the status code as 200
 
   @smokeAPI
   @TC004

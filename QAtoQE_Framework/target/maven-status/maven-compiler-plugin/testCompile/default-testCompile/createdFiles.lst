@@ -1,7 +1,4 @@
-SmokeTests/firstAPITest1.class
-SmokeTests/smokeTest2.class
-SmokeTests/smokeAPITest2.class
-SmokeTests/cucumberRunnerTest.class
-SmokeTests/smokeAPITask1.class
-SmokeTests/cucumberRunner.class
-SmokeTests/smokeTest1.class
+Smoketests/smokeAPITask1.class
+Smoketests/cucumberRunner.class
+Smoketests/smokeAPITest2.class
+Smoketests/cucumberRunnerTest.class

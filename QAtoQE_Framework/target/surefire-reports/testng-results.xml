@@ -1,130 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-23T18:07:18 CDT" name="Surefire suite" finished-at="2021-09-23T18:07:25 CDT" duration-ms="6943">
+  <suite started-at="2021-09-24T18:43:35 CDT" name="Surefire suite" finished-at="2021-09-24T18:43:44 CDT" duration-ms="8987">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-09-23T18:07:18 CDT" name="Surefire test" finished-at="2021-09-23T18:07:25 CDT" duration-ms="6943">
-      <class name="SmokeTests.cucumberRunnerTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-23T18:07:18 CDT" name="setUpClass" finished-at="2021-09-23T18:07:19 CDT" duration-ms="631" status="PASS">
+    <test started-at="2021-09-24T18:43:35 CDT" name="Surefire test" finished-at="2021-09-24T18:43:44 CDT" duration-ms="8987">
+      <class name="Smoketests.cucumberRunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:35 CDT" name="setUpClass" finished-at="2021-09-24T18:43:36 CDT" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-23T18:07:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T18:07:25 CDT" duration-ms="5796" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:36 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-24T18:43:41 CDT" duration-ms="5408" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Testing button elements"]]>
+                <![CDATA["Creating GET Call for single user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Button page Options tests"]]>
+                <![CDATA["Creating smoke tests for reqres.in"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 92
-Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'raj.local', ip: 'fe80:0:0:0:14a0:5895:54a4:bde2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025
-1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443
-2   chromedriver                        0x0000000108aa1958 chromedriver + 182616
-3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576
-4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227
-5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654
-6   chromedriver                        0x0000000108af89d2 chromedriver + 539090
-7   chromedriver                        0x0000000108af2c93 chromedriver + 515219
-8   chromedriver                        0x0000000108ac98be chromedriver + 346302
-9   chromedriver                        0x0000000108acab25 chromedriver + 351013
-10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447
-11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945
-12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867
-13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186
-14  chromedriver                        0x0000000108cccffc chromedriver + 2457596
-15  chromedriver                        0x0000000108d04148 chromedriver + 2683208
-16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601
-17  chromedriver                        0x0000000108d14848 chromedriver + 2750536
-18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148
-19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92
-Current browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'raj.local', ip: 'fe80:0:0:0:14a0:5895:54a4:bde2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x0000000108d0f829 chromedriver + 2730025
-1   chromedriver                        0x00000001093ccf43 chromedriver + 9797443
-2   chromedriver                        0x0000000108aa1958 chromedriver + 182616
-3   chromedriver                        0x0000000108ac76a8 chromedriver + 337576
-4   chromedriver                        0x0000000108ac32e3 chromedriver + 320227
-5   chromedriver                        0x0000000108abf9f6 chromedriver + 305654
-6   chromedriver                        0x0000000108af89d2 chromedriver + 539090
-7   chromedriver                        0x0000000108af2c93 chromedriver + 515219
-8   chromedriver                        0x0000000108ac98be chromedriver + 346302
-9   chromedriver                        0x0000000108acab25 chromedriver + 351013
-10  chromedriver                        0x0000000108cd6f8f chromedriver + 2498447
-11  chromedriver                        0x0000000108ce9a61 chromedriver + 2574945
-12  chromedriver                        0x0000000108cbc76b chromedriver + 2389867
-13  chromedriver                        0x0000000108ceaeda chromedriver + 2580186
-14  chromedriver                        0x0000000108cccffc chromedriver + 2457596
-15  chromedriver                        0x0000000108d04148 chromedriver + 2683208
-16  chromedriver                        0x0000000108d042d1 chromedriver + 2683601
-17  chromedriver                        0x0000000108d14848 chromedriver + 2750536
-18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148
-19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at base.driverFactory.lambda$static$0(driverFactory.java:21)
-at base.driverFactory.getDriver(driverFactory.java:41)
-at stepDefinations.buttonPageSteps.navigatingButtonPageApplication(buttonPageSteps.java:27)
-at ✽.I am navigating into button page application(file:///Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework/src/main/resources/features/buttonPage.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SmokeTests.cucumberRunnerTest@43738a82]" started-at="2021-09-23T18:07:25 CDT" name="tearDownClass" finished-at="2021-09-23T18:07:25 CDT" duration-ms="368" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-24T18:43:42 CDT" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating GET Call for LIST users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke tests for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-24T18:43:42 CDT" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating POST Call to create"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke tests for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-24T18:43:43 CDT" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating POST Call for LOGIN user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke tests for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-24T18:43:43 CDT" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating PUT Call to update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke tests for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-24T18:43:43 CDT" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating DELETE Call to delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating smoke tests for reqres.in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Smoketests.cucumberRunnerTest@63440df3]" started-at="2021-09-24T18:43:43 CDT" name="tearDownClass" finished-at="2021-09-24T18:43:44 CDT" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- SmokeTests.cucumberRunnerTest -->
+      </class> <!-- Smoketests.cucumberRunnerTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

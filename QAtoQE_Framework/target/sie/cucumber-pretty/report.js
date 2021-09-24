@@ -1,58 +1,285 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/resources/features/buttonPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/resources/features/reqresAPI.feature");
 formatter.feature({
-  "name": "Button page Options tests",
+  "name": "Creating smoke tests for reqres.in",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Testing button elements",
+  "name": "Creating GET Call for single user",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@sanityTest"
+      "name": "@smokeAPI"
+    },
+    {
+      "name": "@TC001"
     }
   ]
 });
 formatter.step({
-  "name": "I am navigating into button page application",
+  "name": "I am baseURI of the reqres application",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinations.buttonPageSteps.navigatingButtonPageApplication()"
+  "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 94.0.4606.54 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027raj.local\u0027, ip: \u0027fe80:0:0:0:14a0:5895:54a4:bde2%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u002714\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x00000001002ae829 chromedriver + 2730025\n1   chromedriver                        0x000000010096bf43 chromedriver + 9797443\n2   chromedriver                        0x0000000100040958 chromedriver + 182616\n3   chromedriver                        0x00000001000666a8 chromedriver + 337576\n4   chromedriver                        0x00000001000622e3 chromedriver + 320227\n5   chromedriver                        0x000000010005e9f6 chromedriver + 305654\n6   chromedriver                        0x00000001000979d2 chromedriver + 539090\n7   chromedriver                        0x0000000100091c93 chromedriver + 515219\n8   chromedriver                        0x00000001000688be chromedriver + 346302\n9   chromedriver                        0x0000000100069b25 chromedriver + 351013\n10  chromedriver                        0x0000000100275f8f chromedriver + 2498447\n11  chromedriver                        0x0000000100288a61 chromedriver + 2574945\n12  chromedriver                        0x000000010025b76b chromedriver + 2389867\n13  chromedriver                        0x0000000100289eda chromedriver + 2580186\n14  chromedriver                        0x000000010026bffc chromedriver + 2457596\n15  chromedriver                        0x00000001002a3148 chromedriver + 2683208\n16  chromedriver                        0x00000001002a32d1 chromedriver + 2683601\n17  chromedriver                        0x00000001002b3848 chromedriver + 2750536\n18  libsystem_pthread.dylib             0x00007fff6742b109 _pthread_start + 148\n19  libsystem_pthread.dylib             0x00007fff67426b8b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat base.driverFactory.lambda$static$0(driverFactory.java:21)\n\tat base.driverFactory.getDriver(driverFactory.java:41)\n\tat stepDefinations.buttonPageSteps.navigatingButtonPageApplication(buttonPageSteps.java:27)\n\tat ✽.I am navigating into button page application(file:///Volumes/RaNa/Sindhu_Traninig/SDET-Training/QAtoQE_Framework/src/main/resources/features/buttonPage.feature:6)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on button option",
+  "name": "I passing endpoints for  single user",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinations.buttonPageSteps.iClickOnButtonOption()"
+  "location": "stepDefinations.reqresAPISteps.iPassingEndpointsForSingleUser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click all the buttons",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinations.buttonPageSteps.iClickAllTheButtons()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "I quit the button  page application",
+  "name": "I validate the status code as 200",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinations.buttonPageSteps.iQuitTheButtonPageApplication()"
+  "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate email as janet.weaver@reqres.in",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateEmailAsJanetWeaverReqresIn(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Creating GET Call for LIST users",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smokeAPI"
+    },
+    {
+      "name": "@TC002"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am baseURI of the reqres application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I passing endpoints for  list user",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iPassingEndpointsForListUser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the status code as 200",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Creating POST Call to create",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smokeAPI"
+    },
+    {
+      "name": "@TC003"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am baseURI of the reqres application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I passing endpoints to create",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iPassingEndpointsToCreate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the status code as 201",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Creating POST Call for LOGIN user",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smokeAPI"
+    },
+    {
+      "name": "@TC004"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am baseURI of the reqres application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I passing endpoints for  login user",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iPassingEndpointsForLoginUser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the status code as 200",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Creating PUT Call to update",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smokeAPI"
+    },
+    {
+      "name": "@TC005"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am baseURI of the reqres application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I passing endpoints to update",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iPassingEndpointsToUpdate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the status code as 200",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate job as zion resident",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateJobAsZionResident(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Creating DELETE Call to delete",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smokeAPI"
+    },
+    {
+      "name": "@TC006"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am baseURI of the reqres application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iAmBaseURIOfTheApplication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I passing endpoints to delete",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iPassingEndpointsToDelete()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the status code as 204",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinations.reqresAPISteps.iValidateTheStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
 });
 });
